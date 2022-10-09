@@ -153,7 +153,7 @@ public class Basics {
 
         String[] wordList = to_split.split(" ");
 
-        for (int i = 0; i < wordList.length - 1; i++) ret.append(wordList[i].charAt(0));
+        for (int i = 0; i < wordList.length; i++) ret.append(wordList[i].charAt(0));
 
         return ret.toString();
     }
